@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/log_system
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      show-sql: true
+      ddl-auto: none
+  devtools:
+    cache: false
+    restart:
+      enabled: true
+      additional-paths: src/main/java

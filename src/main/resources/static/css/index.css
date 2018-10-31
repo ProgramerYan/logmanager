@@ -1,0 +1,27 @@
+#mainlayout {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#north {
+    height: 60px;
+}
+#south {
+    height: 50px;
+}
+#west {
+    width: 15%;
+}
+#tablelayout {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
