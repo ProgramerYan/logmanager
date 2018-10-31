@@ -116,7 +116,7 @@ public class ServiceGroupController {
 
             treemenuList.forEach(treemenu -> arrayList1.add(treemenu.getId()));
 //            for(Treemenu treemenu : treemenuList) {
-//                arrayList1.add(treemenu.getId());
+//                arrayList1.add(treemenu.getId());mmmmmmmmm
 //            }
 //            for(int j=0;j<treemenuList.size();j++){
 //                arrayList1.add(treemenuList.get(j).getId());
