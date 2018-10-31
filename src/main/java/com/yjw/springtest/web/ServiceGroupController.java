@@ -15,9 +15,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * 测试提交654
- */
 @RestController
 public class ServiceGroupController {
     @Autowired
