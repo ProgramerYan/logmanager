@@ -13,7 +13,7 @@ $(document).ready(function() {
 function initTree() {
     $('#service_tree').tree({
         type: "GET",
-        url:"http://10.72.179.188:8080/getTree",
+        url:"/getTree",
         loadFilter: function(rows){
             return convert(rows);
         },
