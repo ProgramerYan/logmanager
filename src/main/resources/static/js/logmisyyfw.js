@@ -15,8 +15,8 @@ $(document).ready(function() {
 function initSelectData() {
 
     $('#service_trees').tree({
-        type: "POST",
-        url:"/getTree",
+        type: "GET",
+        url:"http://10.72.179.188:8080/getTree",
         loadFilter: function(rows){
             return convert(rows);
         },
